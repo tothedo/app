@@ -1,0 +1,27 @@
+body{
+  background: white;
+}
+
+.vertical-center{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.nav-icons {
+  font-size: 2.5em;
+}
+
+.nav-icons a{
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  margin: auto;
+}
