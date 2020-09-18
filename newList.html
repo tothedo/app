@@ -25,14 +25,24 @@
   </head>
   <body>
 
+    <!-- Content (Liste erstellen) -->
     <div class="vertical-center">
       <div class="mx-auto">
         <div class="title-newList">
-          <h1>Liste erstellen</h1>
-          <input type="text" name="tfKategorie-newList" placeholder="Kategorie" maxlength="30">
-          <input type="text" name="tfKategorie-newList" placeholder="Name" maxlength="30">
-          <input type="text" name="tfKategorie-newList" placeholder="Inhalt" maxlength="100">
-          <button type="button" name="button">Fertig</button>
+          <div class="mx-auto">
+            <h1>Liste erstellen</h1><br>
+            <select class="tfKategorie" name="Kategorie" maxlength="40" placeholder="Kategorie">
+              <option value="Sport" disabled selected>Kategorie</option>
+              <option value="Sport">Sport</option>
+              <option value="Sport">Haushalt</option>
+              <option value="Sport">Ernährung</option>
+              <option value="Sport">Lernen</option>
+              <option value="Sport">Beruf</option>
+            </select><br><br>
+            <input type="text" name="tfKategorie-newList" placeholder="Name" maxlength="40"><br><br>
+            <input type="text" name="tfKategorie-newList" placeholder="Inhalt" maxlength="100"><br><br>
+            <button type="button" name="button">Liste erstellen</button>
+          </div>
         </div>
       </div>
     </div>
