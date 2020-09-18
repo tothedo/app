@@ -28,42 +28,27 @@
     <!-- Heading -->
     <div class="flex-container fixed-top nav-bar navbar-light "style="background-color: white;">
       <div class="flex-item nav-icons">
-        <a class="nav-link" href="/notification.html">
-          <br>
-          <i class="far fa-edit"></i>
-        </a>
-      </div>
-      <div class="flex-item nav-icons">
         <br>
-        <br>
-        <h1 align="center">Liste<br>erstellen</h1>
-      </div>
-      <div class="flex-item nav-icons">
-        <a class="nav-link" href="/notification.html">
-          <br>
-          <i class="fas fa-ellipsis-v"></i>
-        </a>
+        <h1>Liste erstellen</h1>
       </div>
     </div>
 
     <!-- Content (Liste erstellen) -->
     <div class="vertical-center">
-      <div class="mx-auto">
-        <div class="title-newList">
-          <div class="mx-auto" align="center">
-            <select class="tfKategorie" name="Kategorie" maxlength="40" placeholder="Kategorie">
-              <option value="Sport" disabled selected>Kategorie</option>
-              <option value="Sport">Sport</option>
-              <option value="Sport">Haushalt</option>
-              <option value="Sport">Ernährung</option>
-              <option value="Sport">Lernen</option>
-              <option value="Sport">Beruf</option>
-            </select><br><br>
-            <input type="text" name="tfKategorie-newList" placeholder="Name" maxlength="40"><br><br>
-            <input type="text" name="tfKategorie-newList" placeholder="Inhalt" maxlength="100"><br><br>
-            <button type="button" name="button">Liste erstellen</button>
-          </div>
-        </div>
+      <div class="mx-auto" align="center">
+        <select class="tfKategorie-class" name="Kategorie" maxlength="40">
+          <option value="Sport" selected disabled>Kategorie</option>
+          <option value="Sport">Sport</option>
+          <option value="Haushalt">Haushalt</option>
+          <option value="Ernährung">Ernährung</option>
+          <option value="Lernen">Lernen</option>
+          <option value="Beruf">Beruf</option>
+        </select>
+        <br><br>
+        <input type="text" name="tfKategorie" class="tfKategorie-class" placeholder=" Name" maxlength="40"><br><br>
+        <input type="text" name="tfKategorie" class="tfKategorie-class" placeholder=" Inhalt" maxlength="100"><br><br>
+        <br>
+        <button type="button" name="list-done">Liste erstellen</button>
       </div>
     </div>
 
@@ -75,7 +60,7 @@
         </a>
       </div>
       <div class="flex-item nav-icons">
-        <a class="nav-link" href="/index.html">
+        <a class="nav-link">
           <i>|</i>
         </a>
       </div>
@@ -85,7 +70,7 @@
         </a>
       </div>
       <div class="flex-item nav-icons">
-        <a class="nav-link" href="/index.html">
+        <a class="nav-link">
           <i>|</i>
         </a>
       </div>
